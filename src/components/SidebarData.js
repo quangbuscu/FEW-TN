@@ -1,43 +1,43 @@
 import React from 'react';
 import * as FaIcons from 'react-icons/fa';
-import * as AiIcons from 'react-icons/ai';
 import * as IoIcons from 'react-icons/io';
+import './Navbar.css'
 
 export const SidebarData = [
   {
-    title: 'Home',
+    title: 'Quản lý sản phẩm',
     path: '/',
-    icon: <AiIcons.AiFillHome />,
+    icon: <FaIcons.FaProductHunt />,
     cName: 'nav-text'
   },
   {
-    title: 'Reports',
-    path: '/reports',
+    title: 'Tin tức',
+    path: '/news',
     icon: <IoIcons.IoIosPaper />,
     cName: 'nav-text'
   },
   {
-    title: 'Products',
-    path: '/products',
+    title: 'Quản lý hóa đơn',
+    path: '/bill',
     icon: <FaIcons.FaCartPlus />,
     cName: 'nav-text'
   },
   {
-    title: 'Team',
-    path: '/team',
-    icon: <IoIcons.IoMdPeople />,
+    title: 'Cài đặt tài khoản',
+    path: '/setting',
+    icon: <IoIcons.IoIosSettings />,
     cName: 'nav-text'
   },
   {
-    title: 'Messages',
-    path: '/messages',
-    icon: <FaIcons.FaEnvelopeOpenText />,
-    cName: 'nav-text'
-  },
-  {
-    title: 'Support',
+    title: 'Hỗ trợ',
     path: '/support',
     icon: <IoIcons.IoMdHelpCircle />,
+    cName: 'nav-text'
+  },
+  {
+    title: 'Thông tin về shop',
+    path: '/info',
+    icon: <IoIcons.IoIosInformationCircleOutline />,
     cName: 'nav-text'
   }
 ];
